@@ -1,11 +1,11 @@
 ﻿using Modelos.Interfaces;
 
-namespace Modelos.Compras
+namespace Modelos.Inventario
 {
     /// <summary>
-    /// Objeto simple de tipo Proveedor.
+    /// Objeto simple de tipo Categoría de Productos
     /// </summary>
-    internal class Proveedor : IIdentity, INameable, IActivable
+    internal class CategoriaProducto : IIdentity, INameable, IActivable
     {
         /// <inheritdoc cref="IIdentity.Id"/>
         public int Id { get; set; }
@@ -14,14 +14,9 @@ namespace Modelos.Compras
         public string Nombre { get; set; }
 
         /// <summary>
-        /// Número de teléfono del proveedor.
+        /// Descripción de la categoría del producto.
         /// </summary>
-        public string Telefono { get; set; }
-
-        /// <summary>
-        /// Dirección del proveedor.
-        /// </summary>
-        public string Direccion { get; set; }
+        public string Descripcion { get; set; }
 
         /// <inheritdoc cref="IActivable.Estado"/>
         public bool Estado { get; set; }

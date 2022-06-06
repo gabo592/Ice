@@ -22,8 +22,13 @@ namespace Modelos.Compras
         /// </summary>
         public float Costo { get; set; }
 
+        /// <inheritdoc cref="ITransactionDetail.Cantidad"/>
         public float Cantidad { get; set; }
+
+        /// <inheritdoc cref="ITransactionDetail.Descuento"/>
         public float Descuento { get; set; }
+
+        /// <inheritdoc cref="IActivable.Estado"/>
         public bool Estado { get; set; }
     }
 }
