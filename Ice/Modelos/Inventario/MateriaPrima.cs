@@ -5,7 +5,7 @@ namespace Modelos.Inventario
     /// <summary>
     /// Objeto simple de tipo Materia Prima.
     /// </summary>
-    internal class MateriaPrima : IIdentity, IActivable
+    public class MateriaPrima : IIdentity, IActivable
     {
         /// <inheritdoc cref="IIdentity.Id"/>
         public int Id { get; set; }

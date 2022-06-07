@@ -5,7 +5,7 @@ namespace Modelos.Compras
     /// <summary>
     /// Objeto simple de tipo Detalle de Compra.
     /// </summary>
-    internal class DetalleCompa : ITransactionDetail, IActivable
+    public class DetalleCompa : ITransactionDetail, IActivable
     {
         /// <summary>
         /// Identificador único de la compra.

@@ -5,7 +5,7 @@ namespace Modelos.Inventario
     /// <summary>
     /// Objeti simple de tipo Detalle de Producto
     /// </summary>
-    internal class DetalleProducto : IActivable
+    public class DetalleProducto : IActivable
     {
         /// <summary>
         /// Identificador único del producto asociado al detalle.

@@ -6,7 +6,7 @@ namespace Modelos.Compras
     /// <summary>
     /// Objeto simple de tipo Compra
     /// </summary>
-    internal class Compra : IIdentity, IDateable, IActivable, IEmpleable
+    public class Compra : IIdentity, IDateable, IActivable, IEmpleable
     {
         /// <inheritdoc cref="IIdentity.Id"/>
         public int Id { get; set; }

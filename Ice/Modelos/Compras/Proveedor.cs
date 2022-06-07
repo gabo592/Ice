@@ -5,7 +5,7 @@ namespace Modelos.Compras
     /// <summary>
     /// Objeto simple de tipo Proveedor.
     /// </summary>
-    internal class Proveedor : IIdentity, INameable, IActivable
+    public class Proveedor : IIdentity, INameable, IActivable
     {
         /// <inheritdoc cref="IIdentity.Id"/>
         public int Id { get; set; }

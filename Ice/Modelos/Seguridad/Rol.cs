@@ -1,11 +1,11 @@
 ﻿using Modelos.Interfaces;
 
-namespace Modelos.Inventario
+namespace Modelos.Seguridad
 {
     /// <summary>
-    /// Objeto simple de tipo Categoría de Productos
+    /// Objeto simple de tipo Rol.
     /// </summary>
-    public class CategoriaProducto : IIdentity, INameable, IActivable
+    public class Rol : IIdentity, INameable, IActivable
     {
         /// <inheritdoc cref="IIdentity.Id"/>
         public int Id { get; set; }
@@ -14,7 +14,7 @@ namespace Modelos.Inventario
         public string Nombre { get; set; }
 
         /// <summary>
-        /// Descripción de la categoría del producto.
+        /// Establece la descripción que especifica y diferencia al rol.
         /// </summary>
         public string Descripcion { get; set; }
 

@@ -49,17 +49,22 @@
     <Compile Include="Interfaces\IEmpleable.cs" />
     <Compile Include="Interfaces\IIdentity.cs" />
     <Compile Include="Interfaces\INameable.cs" />
+    <Compile Include="Interfaces\IPerson.cs" />
+    <Compile Include="Interfaces\ISecurity.cs" />
     <Compile Include="Interfaces\ITransactionDetail.cs" />
     <Compile Include="Inventario\CategoriaProducto.cs" />
     <Compile Include="Inventario\DetalleProducto.cs" />
     <Compile Include="Inventario\MateriaPrima.cs" />
     <Compile Include="Inventario\Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecursosHumanos\Empleado.cs" />
+    <Compile Include="Seguridad\DetalleUsuario.cs" />
+    <Compile Include="Seguridad\Rol.cs" />
+    <Compile Include="Seguridad\Usuario.cs" />
+    <Compile Include="Ubicacion\Departamento.cs" />
+    <Compile Include="Ubicacion\Municipio.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="RecursosHumanos\" />
-    <Folder Include="Seguridad\" />
-    <Folder Include="Ubicacion\" />
     <Folder Include="Ventas\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
