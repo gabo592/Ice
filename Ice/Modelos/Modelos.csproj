@@ -63,9 +63,10 @@
     <Compile Include="Seguridad\Usuario.cs" />
     <Compile Include="Ubicacion\Departamento.cs" />
     <Compile Include="Ubicacion\Municipio.cs" />
+    <Compile Include="Ventas\Cliente.cs" />
+    <Compile Include="Ventas\DetalleVenta.cs" />
+    <Compile Include="Ventas\Venta.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Ventas\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

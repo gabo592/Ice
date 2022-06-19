@@ -3,7 +3,7 @@
     /// <summary>
     /// Indica que una clase representa un registro de una persona natural.
     /// </summary>
-    interface IPerson
+    public interface IPerson
     {
         /// <summary>
         /// Primer nombre de la persona.

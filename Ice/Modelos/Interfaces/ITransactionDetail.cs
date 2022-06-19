@@ -3,7 +3,7 @@
     /// <summary>
     /// Indica que una clase es el detalle de otra clase transaccional del sistema.
     /// </summary>
-    internal interface ITransactionDetail
+    public interface ITransactionDetail
     {
         /// <summary>
         /// Cantidad especificada en la transacción.

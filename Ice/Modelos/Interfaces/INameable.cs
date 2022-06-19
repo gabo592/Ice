@@ -3,7 +3,7 @@
     /// <summary>
     /// Indica que una clase posee un nombre por el cual se identifica.
     /// </summary>
-    internal interface INameable
+    public interface INameable
     {
         /// <summary>
         /// Nombre de la clase o registro.
