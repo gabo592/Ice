@@ -54,11 +54,13 @@
     <Compile Include="Database.cs" />
     <Compile Include="Base\BaseDao.cs" />
     <Compile Include="Base\IDao.cs" />
+    <Compile Include="Interfaces\Compras\ICompraDao.cs" />
+    <Compile Include="Interfaces\Compras\IDetalleCompraDao.cs" />
+    <Compile Include="Interfaces\Compras\IProveedorDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Compras\" />
-    <Folder Include="Interfaces\Compras\" />
     <Folder Include="Interfaces\Inventario\" />
     <Folder Include="Interfaces\RecursosHumanos\" />
     <Folder Include="Interfaces\Seguridad\" />
