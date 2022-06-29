@@ -57,21 +57,14 @@
     <Compile Include="Interfaces\Compras\ICompraDao.cs" />
     <Compile Include="Interfaces\Compras\IDetalleCompraDao.cs" />
     <Compile Include="Interfaces\Compras\IProveedorDao.cs" />
+    <Compile Include="Interfaces\Inventario\ICategoriaProductoDao.cs" />
+    <Compile Include="Interfaces\Inventario\IDetalleProductoDao.cs" />
+    <Compile Include="Interfaces\Inventario\IMateriaPrimaDao.cs" />
+    <Compile Include="Interfaces\Inventario\IProductoDao.cs" />
+    <Compile Include="Interfaces\RecursosHumanos\IEmpleadoDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Compras\" />
-    <Folder Include="Interfaces\Inventario\" />
-    <Folder Include="Interfaces\RecursosHumanos\" />
-    <Folder Include="Interfaces\Seguridad\" />
-    <Folder Include="Interfaces\Ubicacion\" />
-    <Folder Include="Interfaces\Ventas\" />
-    <Folder Include="Inventario\" />
-    <Folder Include="RecursosHumanos\" />
-    <Folder Include="Seguridad\" />
-    <Folder Include="Ubicacion\" />
-    <Folder Include="Ventas\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Comun\Comun.csproj">
       <Project>{e942b908-49dd-4210-910e-ec1d5912f6cf}</Project>
