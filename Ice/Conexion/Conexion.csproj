@@ -62,6 +62,9 @@
     <Compile Include="Interfaces\Inventario\IMateriaPrimaDao.cs" />
     <Compile Include="Interfaces\Inventario\IProductoDao.cs" />
     <Compile Include="Interfaces\RecursosHumanos\IEmpleadoDao.cs" />
+    <Compile Include="Interfaces\Seguridad\IDetalleUsuarioDao.cs" />
+    <Compile Include="Interfaces\Seguridad\IRolDao.cs" />
+    <Compile Include="Interfaces\Seguridad\IUsuarioDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
