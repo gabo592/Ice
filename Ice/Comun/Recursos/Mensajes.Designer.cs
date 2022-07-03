@@ -19,7 +19,7 @@ namespace Comun.Recursos {
     // a través de una herramienta como ResGen o Visual Studio.
     // Para agregar o quitar un miembro, edite el archivo .ResX y, a continuación, vuelva a ejecutar ResGen
     // con la opción /str o recompile su proyecto de VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Mensajes {
@@ -57,6 +57,60 @@ namespace Comun.Recursos {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad Fecha del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string FECHA_DEFAULT {
+            get {
+                return ResourceManager.GetString("FECHA_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad IdCompra del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_COMPRA_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_COMPRA_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad Id del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad IdEmpleado del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_EMPLEADO_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_EMPLEADO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad IdMateriaPrima del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_MATERIA_PRIMA_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_MATERIA_PRIMA_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad IdProveedor del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_PROVEEDOR_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_PROVEEDOR_DEFAULT", resourceCulture);
             }
         }
     }

@@ -52,6 +52,8 @@
   <ItemGroup>
     <Compile Include="Base\Validaciones.cs" />
     <Compile Include="Compras\CompraDao.cs" />
+    <Compile Include="Compras\DetalleCompraDao.cs" />
+    <Compile Include="Compras\ProveedorDao.cs" />
     <Compile Include="Constantes\StoredProcedures.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="Base\BaseDao.cs" />
