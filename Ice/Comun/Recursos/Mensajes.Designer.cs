@@ -70,6 +70,15 @@ namespace Comun.Recursos {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad IdCategoria del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_CATEGORIA_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_CATEGORIA_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a La propiedad IdCompra del objeto tiene un valor por defecto, nulo, o no permitido..
         /// </summary>
         internal static string ID_COMPRA_DEFAULT {
@@ -102,6 +111,15 @@ namespace Comun.Recursos {
         internal static string ID_MATERIA_PRIMA_DEFAULT {
             get {
                 return ResourceManager.GetString("ID_MATERIA_PRIMA_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad IdProducto del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_PRODUCTO_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_PRODUCTO_DEFAULT", resourceCulture);
             }
         }
         

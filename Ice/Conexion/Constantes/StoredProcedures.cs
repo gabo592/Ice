@@ -24,5 +24,29 @@
         public static readonly string ProveedorDelete = "PROVEEDOR_DELETE";
 
         #endregion
+
+        #region Inventario
+
+        public static readonly string CategoriaProductoCreate = "CATEGORIA_PRODUCTO_CREATE";
+        public static readonly string CategoriaProductoRead = "CATEGORIA_PRODUCTO_READ";
+        public static readonly string CategoriaProductoUpdate = "CATEGORIA_PRODUCTO_UPDATE";
+        public static readonly string CategoriaProductoDelete = "CATEGORIA_PRODUCTO_DELETE";
+
+        public static readonly string DetalleProductoCreate = "DETALLE_PRODUCTO_CREATE";
+        public static readonly string DetalleProductoRead = "DETALLE_PRODUCTO_READ";
+        public static readonly string DetalleProductoUpdate = "DETALLE_PRODUCTO_UPDATE";
+        public static readonly string DetalleProductoDelete = "DETALLE_PRODUCTO_DELETE";
+
+        public static readonly string MateriaPrimaCreate = "MATERIA_PRIMA_CREATE";
+        public static readonly string MateriaPrimaRead = "MATERIA_PRIMA_READ";
+        public static readonly string MateriaPrimaUpdate = "MATERIA_PRIMA_UPDATE";
+        public static readonly string MateriaPrimaDelete = "MATERIA_PRIMA_DELETE";
+
+        public static readonly string ProductoCreate = "PRODUCTO_CREATE";
+        public static readonly string ProductoRead = "PRODUCTO_READ";
+        public static readonly string ProductoUpdate = "PRODUCTO_UPDATE";
+        public static readonly string ProductoDelete = "PRODUCTO_DELETE";
+
+        #endregion
     }
 }

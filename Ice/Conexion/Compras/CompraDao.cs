@@ -65,7 +65,8 @@ namespace Conexion.Compras
 
             return Read(StoredProcedures.CompraRead, new Dictionary<string, object>
             {
-                {"Id", id }
+                {"Id", id },
+                {"Estado", 1 }
             }).FirstOrDefault() ?? null;
         }
 
@@ -80,7 +81,8 @@ namespace Conexion.Compras
 
             return Read(StoredProcedures.CompraRead, new Dictionary<string, object>
             {
-                {"IdEmpleado", idEmpleado }
+                {"IdEmpleado", idEmpleado },
+                {"Estado", 1 }
             });
         }
 
@@ -95,14 +97,18 @@ namespace Conexion.Compras
 
             return Read(StoredProcedures.CompraRead, new Dictionary<string, object>
             {
-                {"IdEmpleado", idProveedor }
+                {"IdEmpleado", idProveedor },
+                {"Estado", 1 }
             });
         }
 
         /// <inheritdoc cref="BaseDao{TModel}.Read"/>
         public override IEnumerable<Compra> Read()
         {
-            return Read(StoredProcedures.CompraRead);
+            return Read(StoredProcedures.CompraRead, new Dictionary<string, object>
+            {
+                {"Estado", 1 }
+            });
         }
 
         /// <inheritdoc cref="ICompraDao.Read(DateTime)"/>
@@ -116,7 +122,8 @@ namespace Conexion.Compras
 
             return Read(StoredProcedures.CompraRead, new Dictionary<string, object>
             {
-                {"Fecha", fecha }
+                {"Fecha", fecha },
+                {"Estado", 1 }
             });
         }
 

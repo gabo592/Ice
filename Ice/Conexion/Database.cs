@@ -53,7 +53,7 @@ namespace Conexion
         /// <typeparam name="TModel">Tipo de modelo resultante de la ejecución del procedimiento.</typeparam>
         /// <param name="procedure">Nombre del procedimiento almacenado.</param>
         /// <param name="parameters">Colección genérica de pares clave-valor que conforman los parámetros del procedimiento.</param>
-        /// <returns></returns>
+        /// <returns>Colección genérica de objetos del tipo especificado.</returns>
         /// <exception cref="NullReferenceException">Se dispara cuando el nombre del procedimiento almacenado no se especifica.</exception>
         /// <exception cref="ArgumentException">Se dispara cuando no se logra establecer la conexión.</exception>
         public IEnumerable<TModel> Read<TModel>(string procedure, IDictionary<string, object> parameters) where TModel : new()

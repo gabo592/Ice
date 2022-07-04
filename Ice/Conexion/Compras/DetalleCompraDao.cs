@@ -79,7 +79,8 @@ namespace Conexion.Compras
 
             return Read(StoredProcedures.DetalleCompraRead, new Dictionary<string, object>
             {
-                {"IdCompra", idCompra }
+                {"IdCompra", idCompra },
+                {"Estado", 1 }
             });
         }
 
@@ -94,14 +95,18 @@ namespace Conexion.Compras
 
             return Read(StoredProcedures.DetalleCompraRead, new Dictionary<string, object>
             {
-                {"IdMateriaPrima", idMateriaPrima }
+                {"IdMateriaPrima", idMateriaPrima },
+                {"Estado", 1 }
             });
         }
 
         /// <inheritdoc cref="BaseDao{TModel}.Read"/>
         public override IEnumerable<DetalleCompa> Read()
         {
-            return Read(StoredProcedures.DetalleCompraRead);
+            return Read(StoredProcedures.DetalleCompraRead, new Dictionary<string, object>
+            {
+                {"Estado", 1 }
+            });
         }
 
         /// <inheritdoc cref="IDetalleCompraDao.Read(int, int)"/>
@@ -122,7 +127,8 @@ namespace Conexion.Compras
             return Read(StoredProcedures.DetalleCompraRead, new Dictionary<string, object>
             {
                 {"IdCompra", idCompra },
-                {"IdMateriaPrima", idMateriaPrima }
+                {"IdMateriaPrima", idMateriaPrima },
+                {"Estado", 1 }
             }).FirstOrDefault() ?? null;
         }
 

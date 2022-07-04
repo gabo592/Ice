@@ -120,6 +120,9 @@
   <data name="FECHA_DEFAULT" xml:space="preserve">
     <value>La propiedad Fecha del objeto tiene un valor por defecto, nulo, o no permitido.</value>
   </data>
+  <data name="ID_CATEGORIA_DEFAULT" xml:space="preserve">
+    <value>La propiedad IdCategoria del objeto tiene un valor por defecto, nulo, o no permitido.</value>
+  </data>
   <data name="ID_COMPRA_DEFAULT" xml:space="preserve">
     <value>La propiedad IdCompra del objeto tiene un valor por defecto, nulo, o no permitido.</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="ID_MATERIA_PRIMA_DEFAULT" xml:space="preserve">
     <value>La propiedad IdMateriaPrima del objeto tiene un valor por defecto, nulo, o no permitido.</value>
+  </data>
+  <data name="ID_PRODUCTO_DEFAULT" xml:space="preserve">
+    <value>La propiedad IdProducto del objeto tiene un valor por defecto, nulo, o no permitido.</value>
   </data>
   <data name="ID_PROVEEDOR_DEFAULT" xml:space="preserve">
     <value>La propiedad IdProveedor del objeto tiene un valor por defecto, nulo, o no permitido.</value>

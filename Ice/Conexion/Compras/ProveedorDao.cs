@@ -64,7 +64,8 @@ namespace Conexion.Compras
 
             return Read(StoredProcedures.ProveedorRead, new Dictionary<string, object>
             {
-                {"Id", id }
+                {"Id", id },
+                {"Estado", 1 }
             }).FirstOrDefault() ?? null;
         }
 
@@ -80,7 +81,8 @@ namespace Conexion.Compras
             return Read(StoredProcedures.ProveedorRead, new Dictionary<string, object>
             {
                 {"Nombre", value },
-                {"Direccion", value }
+                {"Direccion", value },
+                {"Estado", 1 }
             }); 
         }
 
