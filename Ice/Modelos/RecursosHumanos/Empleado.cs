@@ -22,6 +22,11 @@ namespace Modelos.RecursosHumanos
         /// <inheritdoc cref="IPerson.SegundoApellido"/>
         public string SegundoApellido { get; set; }
 
+        /// <summary>
+        /// Documento de identificación del empleado.
+        /// </summary>
+        public string Cedula { get; set; }
+
         /// <inheritdoc cref="IPerson.Telefono"/>
         public string Telefono { get; set; }
 

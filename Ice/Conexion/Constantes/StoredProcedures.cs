@@ -8,44 +8,73 @@
     {
         #region Compras
 
-        public static readonly string CompraCreate = "COMPRA_CREATE";
-        public static readonly string CompraRead = "COMPRA_READ";
-        public static readonly string CompraUpdate = "COMPRA_UPDATE";
-        public static readonly string CompraDelete = "COMPRA_DELETE";
+        public const string CompraCreate = "COMPRA_CREATE";
+        public const string CompraRead = "COMPRA_READ";
+        public const string CompraUpdate = "COMPRA_UPDATE";
+        public const string CompraDelete = "COMPRA_DELETE";
 
-        public static readonly string DetalleCompraCreate = "DETALLE_COMPRA_CREATE";
-        public static readonly string DetalleCompraRead = "DETALLE_COMPRA_READ";
-        public static readonly string DetalleCompraUpdate = "DETALLE_COMPRA_UPDATE";
-        public static readonly string DetalleCompraDelete = "DETALLE_COMPRA_DELETE";
+        public const string DetalleCompraCreate = "DETALLE_COMPRA_CREATE";
+        public const string DetalleCompraRead = "DETALLE_COMPRA_READ";
+        public const string DetalleCompraUpdate = "DETALLE_COMPRA_UPDATE";
+        public const string DetalleCompraDelete = "DETALLE_COMPRA_DELETE";
 
-        public static readonly string ProveedorCreate = "PROVEEDOR_CREATE";
-        public static readonly string ProveedorRead = "PROVEEDOR_READ";
-        public static readonly string ProveedorUpdate = "PROVEEDOR_UPDATE";
-        public static readonly string ProveedorDelete = "PROVEEDOR_DELETE";
+        public const string ProveedorCreate = "PROVEEDOR_CREATE";
+        public const string ProveedorRead = "PROVEEDOR_READ";
+        public const string ProveedorUpdate = "PROVEEDOR_UPDATE";
+        public const string ProveedorDelete = "PROVEEDOR_DELETE";
 
         #endregion
 
         #region Inventario
 
-        public static readonly string CategoriaProductoCreate = "CATEGORIA_PRODUCTO_CREATE";
-        public static readonly string CategoriaProductoRead = "CATEGORIA_PRODUCTO_READ";
-        public static readonly string CategoriaProductoUpdate = "CATEGORIA_PRODUCTO_UPDATE";
-        public static readonly string CategoriaProductoDelete = "CATEGORIA_PRODUCTO_DELETE";
+        public const string CategoriaProductoCreate = "CATEGORIA_PRODUCTO_CREATE";
+        public const string CategoriaProductoRead = "CATEGORIA_PRODUCTO_READ";
+        public const string CategoriaProductoUpdate = "CATEGORIA_PRODUCTO_UPDATE";
+        public const string CategoriaProductoDelete = "CATEGORIA_PRODUCTO_DELETE";
 
-        public static readonly string DetalleProductoCreate = "DETALLE_PRODUCTO_CREATE";
-        public static readonly string DetalleProductoRead = "DETALLE_PRODUCTO_READ";
-        public static readonly string DetalleProductoUpdate = "DETALLE_PRODUCTO_UPDATE";
-        public static readonly string DetalleProductoDelete = "DETALLE_PRODUCTO_DELETE";
+        public const string DetalleProductoCreate = "DETALLE_PRODUCTO_CREATE";
+        public const string DetalleProductoRead = "DETALLE_PRODUCTO_READ";
+        public const string DetalleProductoUpdate = "DETALLE_PRODUCTO_UPDATE";
+        public const string DetalleProductoDelete = "DETALLE_PRODUCTO_DELETE";
 
-        public static readonly string MateriaPrimaCreate = "MATERIA_PRIMA_CREATE";
-        public static readonly string MateriaPrimaRead = "MATERIA_PRIMA_READ";
-        public static readonly string MateriaPrimaUpdate = "MATERIA_PRIMA_UPDATE";
-        public static readonly string MateriaPrimaDelete = "MATERIA_PRIMA_DELETE";
+        public const string MateriaPrimaCreate = "MATERIA_PRIMA_CREATE";
+        public const string MateriaPrimaRead = "MATERIA_PRIMA_READ";
+        public const string MateriaPrimaUpdate = "MATERIA_PRIMA_UPDATE";
+        public const string MateriaPrimaDelete = "MATERIA_PRIMA_DELETE";
 
-        public static readonly string ProductoCreate = "PRODUCTO_CREATE";
-        public static readonly string ProductoRead = "PRODUCTO_READ";
-        public static readonly string ProductoUpdate = "PRODUCTO_UPDATE";
-        public static readonly string ProductoDelete = "PRODUCTO_DELETE";
+        public const string ProductoCreate = "PRODUCTO_CREATE";
+        public const string ProductoRead = "PRODUCTO_READ";
+        public const string ProductoUpdate = "PRODUCTO_UPDATE";
+        public const string ProductoDelete = "PRODUCTO_DELETE";
+
+        #endregion
+
+        #region RecursosHumanos
+
+        public const string EmpleadoCreate = "EMPLEADO_CREATE";
+        public const string EmpleadoRead = "EMPLEADO_READ";
+        public const string EmpleadoUpdate = "EMPLEADO_UPDATE";
+        public const string EmpleadoDelete = "EMPLEADO_DELETE";
+
+        #endregion
+
+        #region Seguridad
+
+        public const string DetalleUsuarioCreate = "DETALLE_USUARIO_CREATE";
+        public const string DetalleUsuarioRead = "DETALLE_USUARIO_READ";
+        public const string DetalleUsuarioUpdate = "DETALLE_USUARIO_UPDATE";
+        public const string DetalleUsuarioDelete = "DETALLE_USUARIO_DELETE";
+
+        public const string RolCreate = "ROL_CREATE";
+        public const string RolRead = "ROL_READ";
+        public const string RolUpdate = "ROL_UPDATE";
+        public const string RolDelete = "ROL_DELETE";
+
+        public const string UsuarioCrete = "USUARIO_CREATE";
+        public const string UsuarioRead = "USUARIO_READ";
+        public const string UsuarioUpdate = "USUARIO_UPDATE";
+        public const string UsuarioDelete = "USUARIO_DELETE";
+        public const string UsuarioLogin = "USUARIO_LOGIN";
 
         #endregion
     }

@@ -61,6 +61,15 @@ namespace Comun.Recursos {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a La clave de acceso del usuario contiene un valor no permitido por el sistema o no coincide con la longitud de caracteres mayor a 4 dígitos..
+        /// </summary>
+        internal static string CLAVE_USUARIO_DEFAULT {
+            get {
+                return ResourceManager.GetString("CLAVE_USUARIO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a La propiedad Fecha del objeto tiene un valor por defecto, nulo, o no permitido..
         /// </summary>
         internal static string FECHA_DEFAULT {
@@ -115,6 +124,15 @@ namespace Comun.Recursos {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad IdMunicipio del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_MUNICIPIO_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_MUNICIPIO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a La propiedad IdProducto del objeto tiene un valor por defecto, nulo, o no permitido..
         /// </summary>
         internal static string ID_PRODUCTO_DEFAULT {
@@ -129,6 +147,33 @@ namespace Comun.Recursos {
         internal static string ID_PROVEEDOR_DEFAULT {
             get {
                 return ResourceManager.GetString("ID_PROVEEDOR_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad IdRol del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_ROL_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_ROL_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La propiedad IdUsuario del objeto tiene un valor por defecto, nulo, o no permitido..
+        /// </summary>
+        internal static string ID_USUARIO_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_USUARIO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El nombre de usuario contiene un valor no permitido por el sistema o no coincide con la longitud de caracteres de entre 4 a 50 dígitos..
+        /// </summary>
+        internal static string NOMBRE_USUARIO_DEFAULT {
+            get {
+                return ResourceManager.GetString("NOMBRE_USUARIO_DEFAULT", resourceCulture);
             }
         }
     }
