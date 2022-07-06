@@ -77,5 +77,38 @@
         public const string UsuarioLogin = "USUARIO_LOGIN";
 
         #endregion
+
+        #region Ubicacion
+
+        public const string DepartamentoCreate = "DEPARTAMENTO_CREATE";
+        public const string DepartamentoRead = "DEPARTAMENTO_READ";
+        public const string DepartamentoUpdate = "DEPARTAMENOT_UPDATE";
+        public const string DepartamentoDelete = "DEPARTAMENTO_DELETE";
+
+        public const string MunicipioCreate = "MUNICIPIO_CREATE";
+        public const string MunicipioRead = "MUNICIPIO_READ";
+        public const string MunicipioUpdate = "MUNICIPIO_UPDATE";
+        public const string MunicipioDelete = "MUNICIPIO_DELETE";
+
+        #endregion
+
+        #region Ventas
+
+        public const string ClienteCreate = "CLIENTE_CREATE";
+        public const string ClienteRead = "CLIENTE_READ";
+        public const string ClienteUpdate = "CLIENTE_UPDATE";
+        public const string ClienteDelete = "CLIENTE_DELETE";
+
+        public const string DetalleVentaCreate = "DETALLE_VENTA_CREATE";
+        public const string DetalleVentaRead = "DETALLE_VENTA_READ";
+        public const string DetalleVentaUpdate = "DETALLE_VENTA_UPDATE";
+        public const string DetalleVentaDelete = "DETALLE_VENTA_DELETE";
+
+        public const string VentaCreate = "VENTA_CREATE";
+        public const string VentaRead = "VENTA_READ";
+        public const string VentaUpdate = "VENTA_UPDATE";
+        public const string VentaDelete = "VENTA_DELETE";
+
+        #endregion
     }
 }

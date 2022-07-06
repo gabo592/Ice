@@ -58,6 +58,7 @@
     <Compile Include="Database.cs" />
     <Compile Include="Base\BaseDao.cs" />
     <Compile Include="Base\IDao.cs" />
+    <Compile Include="Factory.cs" />
     <Compile Include="Interfaces\Compras\ICompraDao.cs" />
     <Compile Include="Interfaces\Compras\IDetalleCompraDao.cs" />
     <Compile Include="Interfaces\Compras\IProveedorDao.cs" />
@@ -83,6 +84,11 @@
     <Compile Include="Seguridad\DetalleUsuarioDao.cs" />
     <Compile Include="Seguridad\RolDao.cs" />
     <Compile Include="Seguridad\UsuarioDao.cs" />
+    <Compile Include="Ubicacion\DepartamentoDao.cs" />
+    <Compile Include="Ubicacion\MunicipioDao.cs" />
+    <Compile Include="Ventas\ClienteDao.cs" />
+    <Compile Include="Ventas\DetalleVentaDao.cs" />
+    <Compile Include="Ventas\VentaDao.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

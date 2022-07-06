@@ -126,11 +126,17 @@
   <data name="ID_CATEGORIA_DEFAULT" xml:space="preserve">
     <value>La propiedad IdCategoria del objeto tiene un valor por defecto, nulo, o no permitido.</value>
   </data>
+  <data name="ID_CLIENTE_DEFAULT" xml:space="preserve">
+    <value>La propiedad IdCliente del objeto tiene un valor por defecto, nulo, o no permitido.</value>
+  </data>
   <data name="ID_COMPRA_DEFAULT" xml:space="preserve">
     <value>La propiedad IdCompra del objeto tiene un valor por defecto, nulo, o no permitido.</value>
   </data>
   <data name="ID_DEFAULT" xml:space="preserve">
     <value>La propiedad Id del objeto tiene un valor por defecto, nulo, o no permitido.</value>
+  </data>
+  <data name="ID_DEPARTAMENTO_DEFAULT" xml:space="preserve">
+    <value>La propiedad IdDepartamento del objeto tiene un valor por defecto, nulo o no permitido.</value>
   </data>
   <data name="ID_EMPLEADO_DEFAULT" xml:space="preserve">
     <value>La propiedad IdEmpleado del objeto tiene un valor por defecto, nulo, o no permitido.</value>
@@ -152,6 +158,9 @@
   </data>
   <data name="ID_USUARIO_DEFAULT" xml:space="preserve">
     <value>La propiedad IdUsuario del objeto tiene un valor por defecto, nulo, o no permitido.</value>
+  </data>
+  <data name="ID_VENTA_DEFAULT" xml:space="preserve">
+    <value>La propiedad IdVenta del objeto tiene un valor por defecto, nulo, o no permitido.</value>
   </data>
   <data name="NOMBRE_USUARIO_DEFAULT" xml:space="preserve">
     <value>El nombre de usuario contiene un valor no permitido por el sistema o no coincide con la longitud de caracteres de entre 4 a 50 dígitos.</value>
