@@ -196,6 +196,15 @@ namespace Comun.Recursos {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a No fue posible encontrar el modelo..
+        /// </summary>
+        internal static string MODELO_NULO {
+            get {
+                return ResourceManager.GetString("MODELO_NULO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a El nombre de usuario contiene un valor no permitido por el sistema o no coincide con la longitud de caracteres de entre 4 a 50 dígitos..
         /// </summary>
         internal static string NOMBRE_USUARIO_DEFAULT {

@@ -74,7 +74,7 @@
         public const string UsuarioRead = "USUARIO_READ";
         public const string UsuarioUpdate = "USUARIO_UPDATE";
         public const string UsuarioDelete = "USUARIO_DELETE";
-        public const string UsuarioLogin = "USUARIO_LOGIN";
+        public const string UsuarioLogin = "Seguridad.USUARIO_LOGIN";
 
         #endregion
 

@@ -19,12 +19,12 @@ namespace Conexion
         /// <summary>
         /// Cadena de conexión para la base de datos.
         /// </summary>
-        private readonly string Conexion;
+        private readonly string ConnectionString;
 
         /// <summary>
         /// Administrador de errores.
         /// </summary>
-        private readonly ErrorHandler ErrorHandler;
+        private readonly ErrorHandler Handler;
 
         #endregion
 
@@ -38,13 +38,11 @@ namespace Conexion
         /// <param name="handler">Instancia del controlador de errores.</param>
         public Database(string conexion, ErrorHandler handler)
         {
-            Conexion = conexion;
-            ErrorHandler = handler;
+            ConnectionString = conexion;
+            Handler = handler;
         }
 
         #endregion
-
-        #region Método público
 
         /// <summary>
         /// Método encargado de realizar lectura y ejecución de un procedimiento almacenado
@@ -53,7 +51,7 @@ namespace Conexion
         /// <typeparam name="TModel">Tipo de modelo resultante de la ejecución del procedimiento.</typeparam>
         /// <param name="procedure">Nombre del procedimiento almacenado.</param>
         /// <param name="parameters">Colección genérica de pares clave-valor que conforman los parámetros del procedimiento.</param>
-        /// <returns>Colección genérica de objetos del tipo especificado.</returns>
+        /// <returns></returns>
         /// <exception cref="NullReferenceException">Se dispara cuando el nombre del procedimiento almacenado no se especifica.</exception>
         /// <exception cref="ArgumentException">Se dispara cuando no se logra establecer la conexión.</exception>
         public IEnumerable<TModel> Read<TModel>(string procedure, IDictionary<string, object> parameters) where TModel : new()
@@ -62,7 +60,7 @@ namespace Conexion
 
             if (parameters is null) parameters = new Dictionary<string, object>();
 
-            using (SqlConnection connection = new SqlConnection(Conexion))
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
                 try
                 {
@@ -104,27 +102,18 @@ namespace Conexion
                     {
                         SqlDataReader reader = command.ExecuteReader();
 
-                        return MapToObject<TModel>(reader).ToArray();
+                        return MapTopObject<TModel>(reader).ToArray();
                     }
                     catch (Exception ex)
                     {
-                        ErrorHandler.Add(ex);
+                        Handler.Add(ex);
                         return Enumerable.Empty<TModel>();
                     }
                 }
             }
         }
 
-        #endregion
-
-        #region Métodos privados
-
-        /// <summary>
-        /// Remueve el primer caracter de una cadena, suponiendo que es un arroba.
-        /// </summary>
-        /// <param name="value">Cadena de texto a modificar.</param>
-        /// <returns>Cadena de texto modificada sin el primer caracter.</returns>
-        private string RemueveSigno(string value) => value.Substring(1);
+        #region Private Methods
 
         /// <summary>
         /// Método encargado de realizar el mapping de un objeto como resultado de la ejecución
@@ -133,18 +122,18 @@ namespace Conexion
         /// <typeparam name="TModel">Tipo de modelo a realizar el mapping.</typeparam>
         /// <param name="reader">Letor de registros.</param>
         /// <returns>Colección de modelos del tipo especificado como resultado de la ejecución del procedimiento almacenado.</returns>
-        private IEnumerable<TModel> MapToObject<TModel>(IDataReader reader) where TModel : new()
+        private IEnumerable<TModel> MapTopObject<TModel>(IDataReader reader) where TModel : new()
         {
             Type type = typeof(TModel);
 
-            while(reader.Read())
+            while (reader.Read())
             {
                 TModel model = new TModel();
 
                 for (int i = 0; i < reader.FieldCount; i++)
                 {
-                    string nombre = reader.GetString(i);
-                    PropertyInfo property = type.GetProperty(nombre);
+                    string name = reader.GetName(i);
+                    PropertyInfo property = type.GetProperty(name);
 
                     if (property is null) continue;
 
@@ -167,17 +156,25 @@ namespace Conexion
                     if ((value is byte[]) && property.PropertyType == typeof(Image))
                     {
                         byte[] bytesImagen = (byte[])value;
+
                         value = ImageUtil.GetImage(bytesImagen);
                     }
 
                     if (value is null && property.PropertyType == typeof(DateTime)) value = DateTime.Now;
 
-                    property.SetValue(value, model);
+                    property.SetValue(model, value);
                 }
 
                 yield return model;
             }
         }
+
+        /// <summary>
+        /// Remueve el primer caracter de una cadena, suponiendo que es un arroba.
+        /// </summary>
+        /// <param name="value">Cadena de texto a modificar.</param>
+        /// <returns>Cadena de texto modificada sin el primer caracter.</returns>
+        private string RemueveSigno(string value) => value.Substring(1);
 
         #endregion
     }
