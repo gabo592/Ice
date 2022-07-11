@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conexion", "Conexion\Conexi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{7332C666-3830-4635-9F6A-9DBC073DD93C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ice", "Ice\Ice.csproj", "{7F395F04-E0C5-4219-8A26-3D7C5A0D0F21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ice", "Ice\Ice.csproj", "{573EC7FD-5597-4AB0-98A3-1D3885884029}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{7332C666-3830-4635-9F6A-9DBC073DD93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7332C666-3830-4635-9F6A-9DBC073DD93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7332C666-3830-4635-9F6A-9DBC073DD93C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F395F04-E0C5-4219-8A26-3D7C5A0D0F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F395F04-E0C5-4219-8A26-3D7C5A0D0F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F395F04-E0C5-4219-8A26-3D7C5A0D0F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F395F04-E0C5-4219-8A26-3D7C5A0D0F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573EC7FD-5597-4AB0-98A3-1D3885884029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573EC7FD-5597-4AB0-98A3-1D3885884029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573EC7FD-5597-4AB0-98A3-1D3885884029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573EC7FD-5597-4AB0-98A3-1D3885884029}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
