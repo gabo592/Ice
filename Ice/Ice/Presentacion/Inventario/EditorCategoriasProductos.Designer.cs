@@ -339,7 +339,7 @@
             this.TxtNombre.SelectionLength = 0;
             this.TxtNombre.SelectionStart = 0;
             this.TxtNombre.ShortcutsEnabled = true;
-            this.TxtNombre.Size = new System.Drawing.Size(423, 44);
+            this.TxtNombre.Size = new System.Drawing.Size(423, 43);
             this.TxtNombre.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TxtNombre.TabIndex = 0;
             this.TxtNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -380,7 +380,7 @@
             this.TxtDescripcion.IconRight = null;
             this.TxtDescripcion.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TxtDescripcion.Lines = new string[0];
-            this.TxtDescripcion.Location = new System.Drawing.Point(11, 53);
+            this.TxtDescripcion.Location = new System.Drawing.Point(11, 52);
             this.TxtDescripcion.MaxLength = 32767;
             this.TxtDescripcion.MinimumSize = new System.Drawing.Size(1, 1);
             this.TxtDescripcion.Modified = false;
@@ -416,7 +416,7 @@
             this.TxtDescripcion.SelectionLength = 0;
             this.TxtDescripcion.SelectionStart = 0;
             this.TxtDescripcion.ShortcutsEnabled = true;
-            this.TxtDescripcion.Size = new System.Drawing.Size(423, 118);
+            this.TxtDescripcion.Size = new System.Drawing.Size(423, 119);
             this.TxtDescripcion.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TxtDescripcion.TabIndex = 1;
             this.TxtDescripcion.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -442,6 +442,7 @@
             this.Name = "EditorCategoriasProductos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Editor de Categorias de Productos";
+            this.Load += new System.EventHandler(this.EditorCategoriasProductos_Load);
             this.FlwPnlBotones.ResumeLayout(false);
             this.TbPnlDatos.ResumeLayout(false);
             this.ResumeLayout(false);
