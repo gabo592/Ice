@@ -354,17 +354,17 @@
             // TbPanelPrincipal
             // 
             this.TbPanelPrincipal.ColumnCount = 3;
-            this.TbPanelPrincipal.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.TbPanelPrincipal.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90F));
-            this.TbPanelPrincipal.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.TbPanelPrincipal.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.TbPanelPrincipal.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
+            this.TbPanelPrincipal.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
             this.TbPanelPrincipal.Controls.Add(this.TxtBuscar, 1, 0);
             this.TbPanelPrincipal.Controls.Add(this.DgvCatalogo, 1, 1);
             this.TbPanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TbPanelPrincipal.Location = new System.Drawing.Point(0, 38);
             this.TbPanelPrincipal.Name = "TbPanelPrincipal";
             this.TbPanelPrincipal.RowCount = 2;
-            this.TbPanelPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.73298F));
-            this.TbPanelPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 89.26701F));
+            this.TbPanelPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.TbPanelPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90F));
             this.TbPanelPrincipal.Size = new System.Drawing.Size(858, 382);
             this.TbPanelPrincipal.TabIndex = 2;
             // 
@@ -398,7 +398,7 @@
             this.TxtBuscar.IconRight = null;
             this.TxtBuscar.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TxtBuscar.Lines = new string[0];
-            this.TxtBuscar.Location = new System.Drawing.Point(45, 3);
+            this.TxtBuscar.Location = new System.Drawing.Point(20, 3);
             this.TxtBuscar.MaxLength = 32767;
             this.TxtBuscar.MinimumSize = new System.Drawing.Size(1, 1);
             this.TxtBuscar.Modified = false;
@@ -434,7 +434,7 @@
             this.TxtBuscar.SelectionLength = 0;
             this.TxtBuscar.SelectionStart = 0;
             this.TxtBuscar.ShortcutsEnabled = true;
-            this.TxtBuscar.Size = new System.Drawing.Size(766, 34);
+            this.TxtBuscar.Size = new System.Drawing.Size(817, 32);
             this.TxtBuscar.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TxtBuscar.TabIndex = 0;
             this.TxtBuscar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -500,13 +500,13 @@
             this.DgvCatalogo.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.DgvCatalogo.HeaderBgColor = System.Drawing.Color.Empty;
             this.DgvCatalogo.HeaderForeColor = System.Drawing.Color.White;
-            this.DgvCatalogo.Location = new System.Drawing.Point(45, 43);
+            this.DgvCatalogo.Location = new System.Drawing.Point(20, 41);
             this.DgvCatalogo.Name = "DgvCatalogo";
             this.DgvCatalogo.ReadOnly = true;
             this.DgvCatalogo.RowHeadersVisible = false;
             this.DgvCatalogo.RowTemplate.Height = 40;
             this.DgvCatalogo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvCatalogo.Size = new System.Drawing.Size(766, 336);
+            this.DgvCatalogo.Size = new System.Drawing.Size(817, 338);
             this.DgvCatalogo.TabIndex = 1;
             this.DgvCatalogo.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 

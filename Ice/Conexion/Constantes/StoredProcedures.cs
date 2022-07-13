@@ -8,106 +8,106 @@
     {
         #region Compras
 
-        public const string CompraCreate = "COMPRA_CREATE";
-        public const string CompraRead = "COMPRA_READ";
-        public const string CompraUpdate = "COMPRA_UPDATE";
-        public const string CompraDelete = "COMPRA_DELETE";
+        public const string CompraCreate = "Compra.COMPRA_CREATE";
+        public const string CompraRead = "Compra.COMPRA_READ";
+        public const string CompraUpdate = "Compra.COMPRA_UPDATE";
+        public const string CompraDelete = "Compra.COMPRA_DELETE";
 
-        public const string DetalleCompraCreate = "DETALLE_COMPRA_CREATE";
-        public const string DetalleCompraRead = "DETALLE_COMPRA_READ";
-        public const string DetalleCompraUpdate = "DETALLE_COMPRA_UPDATE";
-        public const string DetalleCompraDelete = "DETALLE_COMPRA_DELETE";
+        public const string DetalleCompraCreate = "Compra.DETALLE_COMPRA_CREATE";
+        public const string DetalleCompraRead = "Compra.DETALLE_COMPRA_READ";
+        public const string DetalleCompraUpdate = "Compra.DETALLE_COMPRA_UPDATE";
+        public const string DetalleCompraDelete = "Compra.DETALLE_COMPRA_DELETE";
 
-        public const string ProveedorCreate = "PROVEEDOR_CREATE";
-        public const string ProveedorRead = "PROVEEDOR_READ";
-        public const string ProveedorUpdate = "PROVEEDOR_UPDATE";
-        public const string ProveedorDelete = "PROVEEDOR_DELETE";
+        public const string ProveedorCreate = "Compra.PROVEEDOR_CREATE";
+        public const string ProveedorRead = "Compra.PROVEEDOR_READ";
+        public const string ProveedorUpdate = "Compra.PROVEEDOR_UPDATE";
+        public const string ProveedorDelete = "Compra.PROVEEDOR_DELETE";
 
         #endregion
 
         #region Inventario
 
-        public const string CategoriaProductoCreate = "CATEGORIA_PRODUCTO_CREATE";
-        public const string CategoriaProductoRead = "CATEGORIA_PRODUCTO_READ";
-        public const string CategoriaProductoUpdate = "CATEGORIA_PRODUCTO_UPDATE";
-        public const string CategoriaProductoDelete = "CATEGORIA_PRODUCTO_DELETE";
+        public const string CategoriaProductoCreate = "Inventario.CATEGORIA_PRODUCTO_CREATE";
+        public const string CategoriaProductoRead = "Inventario.CATEGORIA_PRODUCTO_READ";
+        public const string CategoriaProductoUpdate = "Inventario.CATEGORIA_PRODUCTO_UPDATE";
+        public const string CategoriaProductoDelete = "Inventario.CATEGORIA_PRODUCTO_DELETE";
 
-        public const string DetalleProductoCreate = "DETALLE_PRODUCTO_CREATE";
-        public const string DetalleProductoRead = "DETALLE_PRODUCTO_READ";
-        public const string DetalleProductoUpdate = "DETALLE_PRODUCTO_UPDATE";
-        public const string DetalleProductoDelete = "DETALLE_PRODUCTO_DELETE";
+        public const string DetalleProductoCreate = "Inventario.DETALLE_PRODUCTO_CREATE";
+        public const string DetalleProductoRead = "Inventario.DETALLE_PRODUCTO_READ";
+        public const string DetalleProductoUpdate = "Inventario.DETALLE_PRODUCTO_UPDATE";
+        public const string DetalleProductoDelete = "Inventario.DETALLE_PRODUCTO_DELETE";
 
-        public const string MateriaPrimaCreate = "MATERIA_PRIMA_CREATE";
-        public const string MateriaPrimaRead = "MATERIA_PRIMA_READ";
-        public const string MateriaPrimaUpdate = "MATERIA_PRIMA_UPDATE";
-        public const string MateriaPrimaDelete = "MATERIA_PRIMA_DELETE";
+        public const string MateriaPrimaCreate = "Inventario.MATERIA_PRIMA_CREATE";
+        public const string MateriaPrimaRead = "Inventario.MATERIA_PRIMA_READ";
+        public const string MateriaPrimaUpdate = "Inventario.MATERIA_PRIMA_UPDATE";
+        public const string MateriaPrimaDelete = "Inventario.MATERIA_PRIMA_DELETE";
 
-        public const string ProductoCreate = "PRODUCTO_CREATE";
-        public const string ProductoRead = "PRODUCTO_READ";
-        public const string ProductoUpdate = "PRODUCTO_UPDATE";
-        public const string ProductoDelete = "PRODUCTO_DELETE";
+        public const string ProductoCreate = "Inventario.PRODUCTO_CREATE";
+        public const string ProductoRead = "Inventario.PRODUCTO_READ";
+        public const string ProductoUpdate = "Inventario.PRODUCTO_UPDATE";
+        public const string ProductoDelete = "Inventario.PRODUCTO_DELETE";
 
         #endregion
 
         #region RecursosHumanos
 
-        public const string EmpleadoCreate = "EMPLEADO_CREATE";
-        public const string EmpleadoRead = "EMPLEADO_READ";
-        public const string EmpleadoUpdate = "EMPLEADO_UPDATE";
-        public const string EmpleadoDelete = "EMPLEADO_DELETE";
+        public const string EmpleadoCreate = "RecursosHumanos.EMPLEADO_CREATE";
+        public const string EmpleadoRead = "RecursosHumanos.EMPLEADO_READ";
+        public const string EmpleadoUpdate = "RecursosHumanos.EMPLEADO_UPDATE";
+        public const string EmpleadoDelete = "RecursosHumanos.EMPLEADO_DELETE";
 
         #endregion
 
         #region Seguridad
 
-        public const string DetalleUsuarioCreate = "DETALLE_USUARIO_CREATE";
-        public const string DetalleUsuarioRead = "DETALLE_USUARIO_READ";
-        public const string DetalleUsuarioUpdate = "DETALLE_USUARIO_UPDATE";
-        public const string DetalleUsuarioDelete = "DETALLE_USUARIO_DELETE";
+        public const string DetalleUsuarioCreate = "Seguridad.DETALLE_USUARIO_CREATE";
+        public const string DetalleUsuarioRead = "Seguridad.DETALLE_USUARIO_READ";
+        public const string DetalleUsuarioUpdate = "Seguridad.DETALLE_USUARIO_UPDATE";
+        public const string DetalleUsuarioDelete = "Seguridad.DETALLE_USUARIO_DELETE";
 
-        public const string RolCreate = "ROL_CREATE";
-        public const string RolRead = "ROL_READ";
-        public const string RolUpdate = "ROL_UPDATE";
-        public const string RolDelete = "ROL_DELETE";
+        public const string RolCreate = "Seguridad.ROL_CREATE";
+        public const string RolRead = "Seguridad.ROL_READ";
+        public const string RolUpdate = "Seguridad.ROL_UPDATE";
+        public const string RolDelete = "Seguridad.ROL_DELETE";
 
-        public const string UsuarioCrete = "USUARIO_CREATE";
-        public const string UsuarioRead = "USUARIO_READ";
-        public const string UsuarioUpdate = "USUARIO_UPDATE";
-        public const string UsuarioDelete = "USUARIO_DELETE";
+        public const string UsuarioCrete = "Seguridad.USUARIO_CREATE";
+        public const string UsuarioRead = "Seguridad.USUARIO_READ";
+        public const string UsuarioUpdate = "Seguridad.USUARIO_UPDATE";
+        public const string UsuarioDelete = "Seguridad.USUARIO_DELETE";
         public const string UsuarioLogin = "Seguridad.USUARIO_LOGIN";
 
         #endregion
 
         #region Ubicacion
 
-        public const string DepartamentoCreate = "DEPARTAMENTO_CREATE";
-        public const string DepartamentoRead = "DEPARTAMENTO_READ";
+        public const string DepartamentoCreate = "Ubicacion.DEPARTAMENTO_CREATE";
+        public const string DepartamentoRead = "Ubicacion.DEPARTAMENTO_READ";
         public const string DepartamentoUpdate = "DEPARTAMENOT_UPDATE";
-        public const string DepartamentoDelete = "DEPARTAMENTO_DELETE";
+        public const string DepartamentoDelete = "Ubicacion.DEPARTAMENTO_DELETE";
 
-        public const string MunicipioCreate = "MUNICIPIO_CREATE";
-        public const string MunicipioRead = "MUNICIPIO_READ";
-        public const string MunicipioUpdate = "MUNICIPIO_UPDATE";
-        public const string MunicipioDelete = "MUNICIPIO_DELETE";
+        public const string MunicipioCreate = "Ubicacion.MUNICIPIO_CREATE";
+        public const string MunicipioRead = "Ubicacion.MUNICIPIO_READ";
+        public const string MunicipioUpdate = "Ubicacion.MUNICIPIO_UPDATE";
+        public const string MunicipioDelete = "Ubicacion.MUNICIPIO_DELETE";
 
         #endregion
 
         #region Ventas
 
-        public const string ClienteCreate = "CLIENTE_CREATE";
-        public const string ClienteRead = "CLIENTE_READ";
-        public const string ClienteUpdate = "CLIENTE_UPDATE";
-        public const string ClienteDelete = "CLIENTE_DELETE";
+        public const string ClienteCreate = "Ventas.CLIENTE_CREATE";
+        public const string ClienteRead = "Ventas.CLIENTE_READ";
+        public const string ClienteUpdate = "Ventas.CLIENTE_UPDATE";
+        public const string ClienteDelete = "Ventas.CLIENTE_DELETE";
 
-        public const string DetalleVentaCreate = "DETALLE_VENTA_CREATE";
-        public const string DetalleVentaRead = "DETALLE_VENTA_READ";
-        public const string DetalleVentaUpdate = "DETALLE_VENTA_UPDATE";
-        public const string DetalleVentaDelete = "DETALLE_VENTA_DELETE";
+        public const string DetalleVentaCreate = "Venta.DETALLE_VENTA_CREATE";
+        public const string DetalleVentaRead = "Venta.DETALLE_VENTA_READ";
+        public const string DetalleVentaUpdate = "Venta.DETALLE_VENTA_UPDATE";
+        public const string DetalleVentaDelete = "Venta.DETALLE_VENTA_DELETE";
 
-        public const string VentaCreate = "VENTA_CREATE";
-        public const string VentaRead = "VENTA_READ";
-        public const string VentaUpdate = "VENTA_UPDATE";
-        public const string VentaDelete = "VENTA_DELETE";
+        public const string VentaCreate = "Venta.VENTA_CREATE";
+        public const string VentaRead = "Venta.VENTA_READ";
+        public const string VentaUpdate = "Venta.VENTA_UPDATE";
+        public const string VentaDelete = "Venta.VENTA_DELETE";
 
         #endregion
     }

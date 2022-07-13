@@ -114,6 +114,7 @@
             this.categoriasDeProductosToolStripMenuItem.Name = "categoriasDeProductosToolStripMenuItem";
             this.categoriasDeProductosToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.categoriasDeProductosToolStripMenuItem.Text = "Categorias de Productos";
+            this.categoriasDeProductosToolStripMenuItem.Click += new System.EventHandler(this.CategoriasDeProductosToolStripMenuItem_Click);
             // 
             // detallesDeProductosToolStripMenuItem
             // 
@@ -148,7 +149,7 @@
             // 
             this.empleadosToolStripMenuItem.Image = global::Ice.Properties.Resources.team;
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.empleadosToolStripMenuItem.Text = "Empleados";
             // 
             // seguridadToolStripMenuItem
@@ -165,21 +166,21 @@
             // 
             this.detallesDeUsuariosToolStripMenuItem.Image = global::Ice.Properties.Resources.programmer;
             this.detallesDeUsuariosToolStripMenuItem.Name = "detallesDeUsuariosToolStripMenuItem";
-            this.detallesDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.detallesDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.detallesDeUsuariosToolStripMenuItem.Text = "Detalles de Usuarios";
             // 
             // rolesToolStripMenuItem
             // 
             this.rolesToolStripMenuItem.Image = global::Ice.Properties.Resources.users;
             this.rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
-            this.rolesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rolesToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.rolesToolStripMenuItem.Text = "Roles";
             // 
             // usuariosToolStripMenuItem
             // 
             this.usuariosToolStripMenuItem.Image = global::Ice.Properties.Resources.usuario;
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
             // 
             // ventasToolStripMenuItem
@@ -196,21 +197,21 @@
             // 
             this.clientesToolStripMenuItem.Image = global::Ice.Properties.Resources.rating;
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // detallesDeVentasToolStripMenuItem
             // 
             this.detallesDeVentasToolStripMenuItem.Image = global::Ice.Properties.Resources.economy;
             this.detallesDeVentasToolStripMenuItem.Name = "detallesDeVentasToolStripMenuItem";
-            this.detallesDeVentasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.detallesDeVentasToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.detallesDeVentasToolStripMenuItem.Text = "Detalles de Ventas";
             // 
             // ventasToolStripMenuItem1
             // 
             this.ventasToolStripMenuItem1.Image = global::Ice.Properties.Resources.sale_tag;
             this.ventasToolStripMenuItem1.Name = "ventasToolStripMenuItem1";
-            this.ventasToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ventasToolStripMenuItem1.Size = new System.Drawing.Size(168, 22);
             this.ventasToolStripMenuItem1.Text = "Ventas";
             // 
             // PnlPrincipal
