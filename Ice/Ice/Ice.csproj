@@ -229,6 +229,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Presentacion\Base\FrmBuscador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Base\FrmBuscador.Designer.cs">
+      <DependentUpon>FrmBuscador.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Principal\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,6 +253,9 @@
     <Compile Include="Servicios\Base\Session.cs" />
     <Compile Include="Servicios\DaoFactory.cs" />
     <Compile Include="Servicios\Seguridad\UsuarioService.cs" />
+    <EmbeddedResource Include="Presentacion\Base\FrmBuscador.resx">
+      <DependentUpon>FrmBuscador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Principal\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -281,6 +290,21 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="ice-cream.ico" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\usuario.png" />
+    <None Include="Resources\users.png" />
+    <None Include="Resources\team.png" />
+    <None Include="Resources\sale-tag.png" />
+    <None Include="Resources\rating.png" />
+    <None Include="Resources\programmer.png" />
+    <None Include="Resources\economy.png" />
+    <None Include="Resources\diet.png" />
+    <None Include="Resources\inventory.png" />
+    <None Include="Resources\categories.png" />
+    <None Include="Resources\box.png" />
+    <None Include="Resources\delivery-truck.png" />
+    <None Include="Resources\online-shopping.png" />
+    <None Include="Resources\trolley.png" />
     <None Include="Resources\lock.png" />
     <None Include="Resources\user.png" />
     <None Include="Resources\ice-cream.png" />
