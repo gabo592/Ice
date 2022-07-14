@@ -73,9 +73,9 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap box {
+        internal static System.Drawing.Bitmap apps {
             get {
-                object obj = ResourceManager.GetObject("box", resourceCulture);
+                object obj = ResourceManager.GetObject("apps", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap categories {
+        internal static System.Drawing.Bitmap boxes {
             get {
-                object obj = ResourceManager.GetObject("categories", resourceCulture);
+                object obj = ResourceManager.GetObject("boxes", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap delivery_truck {
+        internal static System.Drawing.Bitmap briefcase {
             get {
-                object obj = ResourceManager.GetObject("delivery-truck", resourceCulture);
+                object obj = ResourceManager.GetObject("briefcase", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,19 +103,9 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap diet {
+        internal static System.Drawing.Bitmap hamburger_soda {
             get {
-                object obj = ResourceManager.GetObject("diet", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap economy {
-            get {
-                object obj = ResourceManager.GetObject("economy", resourceCulture);
+                object obj = ResourceManager.GetObject("hamburger_soda", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -125,7 +115,7 @@ namespace Ice.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap ice_cream {
             get {
-                object obj = ResourceManager.GetObject("ice-cream", resourceCulture);
+                object obj = ResourceManager.GetObject("ice_cream", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +123,9 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap inventory {
+        internal static System.Drawing.Bitmap menu_burger {
             get {
-                object obj = ResourceManager.GetObject("inventory", resourceCulture);
+                object obj = ResourceManager.GetObject("menu-burger", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +133,9 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap online_shopping {
+        internal static System.Drawing.Bitmap people_poll {
             get {
-                object obj = ResourceManager.GetObject("online-shopping", resourceCulture);
+                object obj = ResourceManager.GetObject("people_poll", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,29 +143,9 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap programmer {
+        internal static System.Drawing.Bitmap portrait {
             get {
-                object obj = ResourceManager.GetObject("programmer", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rating {
-            get {
-                object obj = ResourceManager.GetObject("rating", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sale_tag {
-            get {
-                object obj = ResourceManager.GetObject("sale_tag", resourceCulture);
+                object obj = ResourceManager.GetObject("portrait", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +163,9 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap team {
+        internal static System.Drawing.Bitmap search_dollar {
             get {
-                object obj = ResourceManager.GetObject("team", resourceCulture);
+                object obj = ResourceManager.GetObject("search_dollar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +173,29 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap trolley {
+        internal static System.Drawing.Bitmap shopping_cart {
             get {
-                object obj = ResourceManager.GetObject("trolley", resourceCulture);
+                object obj = ResourceManager.GetObject("shopping_cart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shopping_cart_check {
+            get {
+                object obj = ResourceManager.GetObject("shopping_cart_check", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap truck_moving {
+            get {
+                object obj = ResourceManager.GetObject("truck_moving", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +223,9 @@ namespace Ice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap usuario {
+        internal static System.Drawing.Bitmap users_alt {
             get {
-                object obj = ResourceManager.GetObject("usuario", resourceCulture);
+                object obj = ResourceManager.GetObject("users_alt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -26,7 +26,6 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        [System.Obsolete]
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBuscador));
@@ -499,7 +498,7 @@
             this.DgvCatalogo.EnableHeadersVisualStyles = false;
             this.DgvCatalogo.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.DgvCatalogo.HeaderBackColor = System.Drawing.Color.DodgerBlue;
-            this.DgvCatalogo.HeaderBgColor = System.Drawing.Color.Empty;
+            //this.DgvCatalogo.HeaderBgColor = System.Drawing.Color.Empty;
             this.DgvCatalogo.HeaderForeColor = System.Drawing.Color.White;
             this.DgvCatalogo.Location = new System.Drawing.Point(20, 41);
             this.DgvCatalogo.Name = "DgvCatalogo";

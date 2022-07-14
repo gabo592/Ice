@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ice.Presentacion.Inventario;
+using Ice.Presentacion.Compras;
 
 namespace Ice.Presentacion.Principal
 {
@@ -53,9 +54,67 @@ namespace Ice.Presentacion.Principal
             Form.Show();
         }
 
-        private void CategoriasDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void PbMenu_Click(object sender, EventArgs e)
+        {
+            if (PnlSideBar.Visible)
+            {
+                PnlSideBar.Visible = false;
+            }
+            else
+            {
+                SideBarTransition.Show(PnlSideBar);
+                PnlSideBar.Visible = true;
+            }
+        }
+
+        private void BtnCompras_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnProveedores_Click(object sender, EventArgs e)
+        {
+            AddForm(new BuscadorProveedores());
+        }
+
+        private void BtnCategoriasProductos_Click(object sender, EventArgs e)
         {
             AddForm(new BuscadorCategoriasProductos());
+        }
+
+        private void BtnMateriasPrimas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnProductos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnEmpleados_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnRoles_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnUsuarios_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnClientes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnVentas_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -235,6 +235,18 @@
     <Compile Include="Presentacion\Base\FrmBuscador.Designer.cs">
       <DependentUpon>FrmBuscador.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Compras\BuscadorProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compras\BuscadorProveedores.Designer.cs">
+      <DependentUpon>BuscadorProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Compras\EditorProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compras\EditorProveedores.Designer.cs">
+      <DependentUpon>EditorProveedores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Inventario\BuscadorCategoriasProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -263,14 +275,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\Base\ServicioBase.cs" />
     <Compile Include="Servicios\Base\Session.cs" />
+    <Compile Include="Servicios\Compras\ProveedorService.cs" />
     <Compile Include="Servicios\DaoFactory.cs" />
     <Compile Include="Servicios\Interfaces\IObservador.cs" />
     <Compile Include="Servicios\Interfaces\ISujeto.cs" />
     <Compile Include="Servicios\Inventario\CategoriasProductosService.cs" />
     <Compile Include="Servicios\Seguridad\UsuarioService.cs" />
+    <Compile Include="ViewModels\Compras\ProveedorView.cs" />
     <Compile Include="ViewModels\Inventario\CategoriaProductoView.cs" />
     <EmbeddedResource Include="Presentacion\Base\FrmBuscador.resx">
       <DependentUpon>FrmBuscador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Compras\EditorProveedores.resx">
+      <DependentUpon>EditorProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Inventario\EditorCategoriasProductos.resx">
       <DependentUpon>EditorCategoriasProductos.cs</DependentUpon>
@@ -309,24 +326,23 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="ice-cream.ico" />
-    <None Include="Resources\search.png" />
-    <None Include="Resources\usuario.png" />
+    <None Include="Resources\ice-cream.png" />
+    <None Include="Resources\users-alt.png" />
     <None Include="Resources\users.png" />
-    <None Include="Resources\team.png" />
-    <None Include="Resources\sale-tag.png" />
-    <None Include="Resources\rating.png" />
-    <None Include="Resources\programmer.png" />
-    <None Include="Resources\economy.png" />
-    <None Include="Resources\diet.png" />
-    <None Include="Resources\inventory.png" />
-    <None Include="Resources\categories.png" />
-    <None Include="Resources\box.png" />
-    <None Include="Resources\delivery-truck.png" />
-    <None Include="Resources\online-shopping.png" />
-    <None Include="Resources\trolley.png" />
+    <None Include="Resources\truck-moving.png" />
+    <None Include="Resources\shopping-cart-check.png" />
+    <None Include="Resources\shopping-cart.png" />
+    <None Include="Resources\search-dollar.png" />
+    <None Include="Resources\portrait.png" />
+    <None Include="Resources\people-poll.png" />
+    <None Include="Resources\hamburger-soda.png" />
+    <None Include="Resources\briefcase.png" />
+    <None Include="Resources\boxes.png" />
+    <None Include="Resources\apps.png" />
+    <None Include="Resources\menu-burger.png" />
+    <None Include="Resources\search.png" />
     <None Include="Resources\lock.png" />
     <None Include="Resources\user.png" />
-    <None Include="Resources\ice-cream.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Comun\Comun.csproj">

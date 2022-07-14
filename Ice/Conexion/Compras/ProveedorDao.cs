@@ -38,7 +38,7 @@ namespace Conexion.Compras
             {
                 {"Nombre", model.Nombre },
                 {"Telefono", model.Telefono },
-                {"Dirección", model.Direccion }
+                {"Direccion", model.Direccion }
             }).FirstOrDefault() ?? null;
         }
 
@@ -96,7 +96,7 @@ namespace Conexion.Compras
                 {"Id", model.Id },
                 {"Nombre", model.Nombre },
                 {"Telefono", model.Telefono },
-                {"Dirección", model.Direccion }
+                {"Direccion", model.Direccion }
             }).FirstOrDefault() ?? null;
         }
     }

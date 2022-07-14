@@ -8,20 +8,20 @@
     {
         #region Compras
 
-        public const string CompraCreate = "Compra.COMPRA_CREATE";
-        public const string CompraRead = "Compra.COMPRA_READ";
-        public const string CompraUpdate = "Compra.COMPRA_UPDATE";
-        public const string CompraDelete = "Compra.COMPRA_DELETE";
+        public const string CompraCreate = "Compras.COMPRA_CREATE";
+        public const string CompraRead = "Compras.COMPRA_READ";
+        public const string CompraUpdate = "Compras.COMPRA_UPDATE";
+        public const string CompraDelete = "Compras.COMPRA_DELETE";
 
-        public const string DetalleCompraCreate = "Compra.DETALLE_COMPRA_CREATE";
-        public const string DetalleCompraRead = "Compra.DETALLE_COMPRA_READ";
-        public const string DetalleCompraUpdate = "Compra.DETALLE_COMPRA_UPDATE";
-        public const string DetalleCompraDelete = "Compra.DETALLE_COMPRA_DELETE";
+        public const string DetalleCompraCreate = "Compras.DETALLE_COMPRA_CREATE";
+        public const string DetalleCompraRead = "Compras.DETALLE_COMPRA_READ";
+        public const string DetalleCompraUpdate = "Compras.DETALLE_COMPRA_UPDATE";
+        public const string DetalleCompraDelete = "Compras.DETALLE_COMPRA_DELETE";
 
-        public const string ProveedorCreate = "Compra.PROVEEDOR_CREATE";
-        public const string ProveedorRead = "Compra.PROVEEDOR_READ";
-        public const string ProveedorUpdate = "Compra.PROVEEDOR_UPDATE";
-        public const string ProveedorDelete = "Compra.PROVEEDOR_DELETE";
+        public const string ProveedorCreate = "Compras.PROVEEDOR_CREATE";
+        public const string ProveedorRead = "Compras.PROVEEDOR_READ";
+        public const string ProveedorUpdate = "Compras.PROVEEDOR_UPDATE";
+        public const string ProveedorDelete = "Compras.PROVEEDOR_DELETE";
 
         #endregion
 
@@ -99,15 +99,15 @@
         public const string ClienteUpdate = "Ventas.CLIENTE_UPDATE";
         public const string ClienteDelete = "Ventas.CLIENTE_DELETE";
 
-        public const string DetalleVentaCreate = "Venta.DETALLE_VENTA_CREATE";
-        public const string DetalleVentaRead = "Venta.DETALLE_VENTA_READ";
-        public const string DetalleVentaUpdate = "Venta.DETALLE_VENTA_UPDATE";
-        public const string DetalleVentaDelete = "Venta.DETALLE_VENTA_DELETE";
+        public const string DetalleVentaCreate = "Ventas.DETALLE_VENTA_CREATE";
+        public const string DetalleVentaRead = "Ventas.DETALLE_VENTA_READ";
+        public const string DetalleVentaUpdate = "Ventas.DETALLE_VENTA_UPDATE";
+        public const string DetalleVentaDelete = "Ventas.DETALLE_VENTA_DELETE";
 
-        public const string VentaCreate = "Venta.VENTA_CREATE";
-        public const string VentaRead = "Venta.VENTA_READ";
-        public const string VentaUpdate = "Venta.VENTA_UPDATE";
-        public const string VentaDelete = "Venta.VENTA_DELETE";
+        public const string VentaCreate = "Ventas.VENTA_CREATE";
+        public const string VentaRead = "Ventas.VENTA_READ";
+        public const string VentaUpdate = "Ventas.VENTA_UPDATE";
+        public const string VentaDelete = "Ventas.VENTA_DELETE";
 
         #endregion
     }
