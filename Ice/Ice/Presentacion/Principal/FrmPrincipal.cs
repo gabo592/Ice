@@ -84,7 +84,7 @@ namespace Ice.Presentacion.Principal
 
         private void BtnMateriasPrimas_Click(object sender, EventArgs e)
         {
-
+            AddForm(new BuscadorMateriasPrimas());
         }
 
         private void BtnProductos_Click(object sender, EventArgs e)

@@ -253,11 +253,23 @@
     <Compile Include="Presentacion\Inventario\BuscadorCategoriasProductos.Designer.cs">
       <DependentUpon>BuscadorCategoriasProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Inventario\BuscadorMateriasPrimas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventario\BuscadorMateriasPrimas.Designer.cs">
+      <DependentUpon>BuscadorMateriasPrimas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Inventario\EditorCategoriasProductos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\Inventario\EditorCategoriasProductos.Designer.cs">
       <DependentUpon>EditorCategoriasProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Inventario\EditorMateriasPrimas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventario\EditorMateriasPrimas.Designer.cs">
+      <DependentUpon>EditorMateriasPrimas.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Principal\FrmLogin.cs">
       <SubType>Form</SubType>
@@ -280,9 +292,11 @@
     <Compile Include="Servicios\Interfaces\IObservador.cs" />
     <Compile Include="Servicios\Interfaces\ISujeto.cs" />
     <Compile Include="Servicios\Inventario\CategoriasProductosService.cs" />
+    <Compile Include="Servicios\Inventario\MateriasPrimasService.cs" />
     <Compile Include="Servicios\Seguridad\UsuarioService.cs" />
     <Compile Include="ViewModels\Compras\ProveedorView.cs" />
     <Compile Include="ViewModels\Inventario\CategoriaProductoView.cs" />
+    <Compile Include="ViewModels\Inventario\MateriaPrimaView.cs" />
     <EmbeddedResource Include="Presentacion\Base\FrmBuscador.resx">
       <DependentUpon>FrmBuscador.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +305,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Inventario\EditorCategoriasProductos.resx">
       <DependentUpon>EditorCategoriasProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventario\EditorMateriasPrimas.resx">
+      <DependentUpon>EditorMateriasPrimas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Principal\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
