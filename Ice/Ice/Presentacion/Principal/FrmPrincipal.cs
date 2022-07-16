@@ -28,13 +28,7 @@ namespace Ice.Presentacion.Principal
         {
             DialogResult result = MessageBox.Show(this, "¿Desea cerrar el programa? Es posible que información sin guardar se pierda.", "Advertencia", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
-            if (result == DialogResult.No)
-            {
-                e.Cancel = true;
-                return;
-            }
-
-            Application.Exit();
+            if (result == DialogResult.No) e.Cancel = true;
         }
 
         private void AddForm(Form form)
@@ -89,7 +83,7 @@ namespace Ice.Presentacion.Principal
 
         private void BtnProductos_Click(object sender, EventArgs e)
         {
-
+            AddForm(new BuscadorProductos());
         }
 
         private void BtnEmpleados_Click(object sender, EventArgs e)
@@ -115,6 +109,11 @@ namespace Ice.Presentacion.Principal
         private void BtnVentas_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void FrmPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

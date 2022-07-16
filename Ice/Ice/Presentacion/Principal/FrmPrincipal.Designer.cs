@@ -1101,6 +1101,7 @@
             this.Text = "Principal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPrincipal_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmPrincipal_FormClosed);
             this.PnlTopBar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PbMenu)).EndInit();
             this.PnlSideBar.ResumeLayout(false);

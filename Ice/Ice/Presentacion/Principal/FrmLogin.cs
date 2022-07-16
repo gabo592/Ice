@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ice.Servicios.Seguridad;
 
@@ -14,34 +7,31 @@ namespace Ice.Presentacion.Principal
     public partial class FrmLogin : Form
     {
         /// <summary>
-        /// Proveedor de servicios para usuarios.
+        /// Proveedor de servicios para los usuarios.
         /// </summary>
-        private readonly UsuarioService usuarioService;
+        private readonly UsuarioService Service;
 
         public FrmLogin()
         {
             InitializeComponent();
-            usuarioService = new UsuarioService();
+            Service = new UsuarioService();
         }
 
-        private void BtnIngresar_Click(object sender, EventArgs e)
+        private void BtnEntrar_Click(object sender, EventArgs e)
         {
-            string nombre = TxtNombre.Text;
-            string clave = TxtClave.Text;
-
             try
             {
-                usuarioService.Login(nombre, clave);
+                Service.Login(nombre: TxtNombre.Text, clave: TxtClave.Text);
 
-                if (usuarioService.HasError())
+                if (Service.HasError())
                 {
-                    MessageBox.Show(this, usuarioService.GetErrorMessage(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this, Service.GetErrorMessage(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
                 FrmPrincipal frmPrincipal = new FrmPrincipal();
                 frmPrincipal.Show();
-                Hide();
+                Close();
             }
             catch (Exception ex)
             {
@@ -49,7 +39,7 @@ namespace Ice.Presentacion.Principal
             }
         }
 
-        private void BtnSalir_Click(object sender, EventArgs e)
+        private void BtnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
